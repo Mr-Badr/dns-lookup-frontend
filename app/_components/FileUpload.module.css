@@ -1,0 +1,40 @@
+.dropzone {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  width: 500px;
+  height: 100px;
+  border: 2px dashed #292929;
+  border-radius: 12px;
+  padding: 20px;
+  cursor: pointer;
+  text-align: center;
+  position: relative;
+  margin: auto;
+}
+
+.dropzone:hover {
+  background-color: #f1f1f1;
+}
+
+.icon {
+  font-size: 2rem;
+}
+
+.fileName {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #333;
+}
+
+.fileInput {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}

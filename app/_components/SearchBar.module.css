@@ -1,0 +1,39 @@
+.container {
+  margin: 30px auto 0;
+  width: 70%;
+}
+
+.searchInput {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.downloadSection {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.title {
+  background-color: #f9e79f; /* Yellow background */
+  padding: 5px 10px;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+.subtitle {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #333;
+}
+
+.downloadLink {
+  color: #3498db; /* Blue color */
+  text-decoration: underline;
+  cursor: pointer;
+  margin-top: 10px;
+  display: block;
+  font-size: 16px;
+  margin-left: 40px;
+}

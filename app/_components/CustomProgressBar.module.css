@@ -1,0 +1,51 @@
+.progressContainer {
+  width: 100%;
+  background-color: #fff; /* White background inside the progress bar */
+  border-radius: 10px; /* Rounded corners */
+  border: 2px solid #000; /* Black border */
+  padding: 5px;
+  position: relative;
+  margin-top: 20px;
+  overflow: hidden; /* Hide overflow to ensure clean edges */
+}
+
+.progressBar {
+  height: 20px;
+  position: relative;
+  background-color: transparent; /* Transparent background */
+  border-radius: 8px;
+  transition: width 0.3s ease-in-out;
+  background-image: linear-gradient(
+    135deg,
+    #4caf50 25%,
+    transparent 25%,
+    transparent 50%,
+    #4caf50 50%,
+    #4caf50 75%,
+    transparent 75%,
+    transparent
+  ); /* Green diagonal lines */
+  background-size: 6px 6px; /* Control the size of the diagonal lines */
+}
+
+.progressFill {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: transparent;
+  z-index: 2;
+  overflow: hidden;
+  border-radius: 8px; /* Ensure fill has rounded edges */
+}
+
+.progressText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Perfectly center the text */
+  color: #0000FF; /* Change the color to blue */
+  font-weight: bold;
+  font-size: 14px;
+  z-index: 3; /* Ensure text stays on top */
+}
